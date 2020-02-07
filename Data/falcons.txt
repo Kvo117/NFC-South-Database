@@ -1,0 +1,12 @@
+Desmond Trufant,CB,21,Washington
+Blidi Wreh-Wilson,CB,33,Connecticut
+Devonta Freeman,RB,24,Florida State
+Kenjon Barner,RB,38,Oregon
+Julio Jones,WR,11,Alabama
+Calvin Ridley,WR,18,Alabama
+Russell Gage,WR,83,LSU
+Mohamed Sanu,WR,12,Rutgers
+Austin Hooper,TE,81,Stanford
+Jaeden Graham,TE,87,Yale
+Alex Gray,TE,89,Barnard Castle School
+

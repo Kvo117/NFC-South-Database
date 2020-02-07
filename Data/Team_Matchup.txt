@@ -1,0 +1,14 @@
+Team_ID,T1,T2,T1.pts,T2.pts,T.victory
+-----------------------------------------
+101,Saints,Buccaneers,40,48,Buccaneers
+101,Saints,Falcons,43,37,Saints
+101,Saints,Panthers,12,9,Saints
+102,Panthers,Falcons,24,31,Falcons
+102,Panthers,Buccaneers,42,28,Panthers
+102,Panthers,Saints,9,12,Saints
+103,Buccaneers,Saints,48,40,Buccaneers
+103,Buccaneers,Falcons,29,34,Falcons
+103,Buccaneers,Panthers,28,42,Buccaneers
+104,Falcons,Panthers,31,24,Falcons
+104,Falcons,Saints,37,43,Saints
+104,Falcons,Buccan,34,29,Falcons

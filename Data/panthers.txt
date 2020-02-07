@@ -1,0 +1,12 @@
+Ross Cockrell,CB,47,Duke
+Lorenzo Doss,CB,31,Tulane
+Christian McCaffrey,RB,22,Stanford
+Elijah Hood,RB,30,North Carolina
+DJ Moore,WR,12,Maryland
+Torrey Smith,WR,11,Maryland
+DeAndrew White,WR,16,Alabama
+Curtis Samuel,WR,10,Ohio State
+Greg Olsen,TE,88,Miami (Fla.)
+Ian Thomas,TE,80,Indiana
+Chris Manhertz,TE,82,Canisius
+

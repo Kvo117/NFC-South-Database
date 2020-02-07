@@ -1,0 +1,26 @@
+Team ID, Name, Position, Rushing Yards, Passing Yards, Receptions, Touchdowns, Interceptions
+
+101, Alvin Kamara, RB, 883, 0, 0, 0, 0
+102, Christian McCaffrey, RB, 1098, 0, 0, 0, 0
+103, Peyton Barber, RB, 871, 0, 0, 0, 0
+104, Tevin Coleman, RB, 800, 0, 0, 0, 0
+
+101, Drew Brees, QB, 0, 3992, 0, 0, 0
+102, Cam Newton, QB, 0, 3395, 0, 0, 0
+103, Jameis Winston, QB, 0, 2992, 0, 0, 0
+104, Matt Ryan, QB, 0, 4924, 0, 0, 0
+
+101, Michael Thomas, WR, 0, 0, 125, 0, 0
+102, DJ Moore, WR, 0, 0,  55, 0, 0
+103, Mike Evans, WR, 0, 0,  86, 0, 0
+104, Julio Jones, WR, 0, 0,  113, 0, 0
+
+101, Ben Watson, TE, 0, 0, 0, 6, 0
+102, Greg Olsen, TE, 0, 0, 0, 4, 0
+103, Cameron Brate, TE, 0, 0, 0, 6, 0
+104, Austin Hooper, TE, 0, 0, 0, 4, 0
+
+101, Marshon Lattimore, CB, 0, 0, 0, 0, 2
+102, Lorenzo Doss, CB, 0, 0, 0, 0, 0
+103, Carlton Davis, CB, 0, 0, 0, 0, 0
+104, Desmond Trufont, CB, 0, 0, 0, 0, 0
