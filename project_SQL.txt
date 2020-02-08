@@ -1,0 +1,48 @@
+#SQL 1
+
+SELECT *
+FROM offense
+NATURAL JOIN defense;
+
+#SQL 2
+
+UPDATE Final_Stats
+SET Passing_Yds = 4000
+WHERE Passing_Yds = 2992 and team_id = 103;
+
+#SQL 3
+
+SELECT t2_id, (SELECT Name from teams where t2_id = team_id)
+FROM games
+WHERE t1_points > t2_points and t2_id <> 101;
+
+#SQL 4
+
+SELECT AVG(t1_points)
+FROM games
+WHERE t1_id = 101
+and t1_points > t2_points;
+
+#SQL 5
+
+SELECT Name, Position, Reception
+FROM Final_Stats
+WHERE Position = 'WR'
+ORDER BY Reception DESC;
+
+#SQL 6
+
+SELECT game_id,t1_id,Total_Yards
+FROM offense
+WHERE t1_id = 101
+UNION
+SELECT game_id,t1_id,Yards_Allowed
+FROM defense
+WHERE t1_id = 101;
+
+#SQL 7
+
+SELECT Name
+FROM Final_Stats
+WHERE team_id =101;
+
