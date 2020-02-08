@@ -1,0 +1,12 @@
+drop table players;
+
+drop table teams;
+
+drop table Final_Stats;
+
+drop table games;
+
+drop table offense;
+
+drop table defense;
+

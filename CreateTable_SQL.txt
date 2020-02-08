@@ -1,0 +1,72 @@
+#create tables
+
+#table 1
+create table teams(
+team_id integer,
+Name varchar(1000),
+Location varchar(1000),
+PRIMARY KEY(team_id)
+);
+
+load data local infile './teams.txt' into table teams fields termi$
+#table 2
+create table players(
+        p_id integer,
+        team_id integer,
+        Name varchar(255),
+        Position varchar(255),
+        Number integer,
+        College varchar(255),
+        PRIMARY KEY(p_id)
+);
+
+
+load data local infile './players.txt' into table players fields t$
+
+#table 3
+create table Final_Stats(
+        team_id integer,
+        Name varchar(255),
+        Position varchar(255),
+        Rushing_Yds integer,
+        Passing_Yds integer,
+        Reception integer,
+        Touchdown integer,
+        Interception integer,
+        PRIMARY KEY(team_id, Name)
+);
+load data local infile './Final_Stats.txt' into table Final_Stats $
+
+#table 4
+create table games(
+        game_id integer,
+        t1_id integer,
+        t2_id integer,
+        t1_points integer,
+        t2_points integer,
+        Date varchar(255),
+        PRIMARY KEY(game_id)
+);
+load data local infile './team_Matchup.txt' into table games field$
+
+#table 5
+create table offense(
+        game_id integer,
+        t1_id integer,
+        Total_Yards integer,
+        Touchdowns integer,
+        PRIMARY KEY(game_id)
+);
+load data local infile './offense.txt' into table offense fields t$
+
+#table 6
+create table defense(
+        game_id integer,
+        t1_id integer,
+        Sacks integer,
+        Yards_Allowed integer,
+        PRIMARY KEY(game_id)
+);
+load data local infile './defense.txt' into table defense fields t$
+
+
