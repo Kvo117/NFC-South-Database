@@ -1,0 +1,20 @@
+We use the class server to compile our code.
+
+1. log into your class server through putty or terminal base connected to lsu vpn
+
+2. Upload the 4 teams createTable_SQL, project_SQL, offense, defense, Final_Stats and teams to the same directory.
+
+3. Once all files are in the same directory. To create the table run this command:
+    mysql --local-infile -ucs440231 -ph6udxf cs440231 <createTables_sql -t
+
+4. Once the command is executed all tables are created to run your sql codes. To Run the SQL codes Run this command:
+    mysql --local-infile -ucs440231 -ph6udxf cs440231 <project_sql -t
+
+5. You will see different results printed
+
+
+This is made for LSU Spring 2019 CSC 4402.
+
+Team Members:
+
+Tri Nguyen, Benjamin Leung, Quoc Than, Kevin Vo
